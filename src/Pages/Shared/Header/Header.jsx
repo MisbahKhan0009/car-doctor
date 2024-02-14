@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "/logo.svg";
+import logo from "/logo.png";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   const menuItems = (
@@ -30,11 +31,6 @@ const Header = () => {
     <div className="navbar h-28 my-12  px-32 bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <Link to="/">
-              <img src={logo} alt="" />
-            </Link>
-          </div>
           <ul
             tabIndex={0}
             className="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 font-semibold rounded-box w-52"
@@ -43,7 +39,7 @@ const Header = () => {
           </ul>
         </div>
         <Link to="/">
-          <img src={logo} alt="" />
+          <img className="header-logo" src={logo} alt="" />
         </Link>
       </div>
       <div className="navbar-center hidden font-semibold lg:flex">

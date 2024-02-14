@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import signup from "/Users/misbah/Documents/PH/WD Projects/car-doctor-client/src/assets/images/login/login.svg";
 import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 import { FcGoogle } from "react-icons/fc";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const SignUp = () => {
-  const { createUser, googleSignup } = useContext(AuthContext);
+  const { createUser, googleSignup, githubSignup } = useContext(AuthContext);
 
   const handleSignup = (event) => {
     event.preventDefault();
@@ -25,6 +25,16 @@ const SignUp = () => {
   const handleGoogleSignUp = (event) => {
     event.preventDefault();
     googleSignup()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((err) => console.error(err));
+  };
+
+  const handleGithubSignUp = (event) => {
+    event.preventDefault();
+    githubSignup()
       .then((result) => {
         const user = result.user;
         console.log(user);
@@ -97,9 +107,10 @@ const SignUp = () => {
             </button>
             <button
               className=" mx-3 my-6 tooltip tooltip-right"
-              data-tip="Continue with Twitter"
+              onClick={handleGithubSignUp}
+              data-tip="Continue with Github"
             >
-              <FaXTwitter className="text-2xl" />
+              <FaGithub className="text-2xl" />
             </button>
           </div>
 
@@ -117,7 +128,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-
-
-
-

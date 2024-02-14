@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "/logo.svg";
+import logo from "/logo.png";
+import "./Footer.css";
 import {
   AiFillYoutube,
   AiFillInstagram,
@@ -12,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="footer mt-10 p-32 w-full bg-base-200 text-base-content">
       <aside>
-        <img src={logo} alt="" />
+        <img className="footer-logo" src={logo} alt="" />
         <p>
           Car Doctor is your ultimate <br /> destination for any problem with
           car.

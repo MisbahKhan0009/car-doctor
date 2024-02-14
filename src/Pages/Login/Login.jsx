@@ -2,7 +2,7 @@ import React from "react";
 import login from "/Users/misbah/Documents/PH/WD Projects/car-doctor-client/src/assets/images/login/login.svg";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const Login = () => {
   const handleLogin = (event) => {
@@ -62,9 +62,9 @@ const Login = () => {
             </button>
             <button
               className=" mx-3 my-6 tooltip tooltip-right"
-              data-tip="Continue with Twitter"
+              data-tip="Continue with Github"
             >
-              <FaXTwitter className="text-2xl" />
+              <FaGithub className="text-2xl" />
             </button>
           </div>
 

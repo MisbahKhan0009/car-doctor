@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "R3vYnDh7AqK9",
+    "rating": "⭐⭐⭐⭐⭐",
+    "title": "Car Brake Caliper",
+    "productImg": "/assets/images/products/1.png",
+    "price": 25.99
+  },
+
+  {
+    "_id": "SbTgFmZ5pLc6",
+    "rating": "⭐⭐⭐⭐⭐",
+    "title": "Motorcycle Brake Caliper",
+    "productImg": "/assets/images/products/2.png",
+    "price": 19.95
+  },
+  {
+    "_id": "WjR8uDx6QvA2",
+    "rating": "⭐⭐⭐⭐⭐",
+    "title": "Car Air Filter",
+    "productImg": "/assets/images/products/3.png",
+    "price": 49.99
+  },
+  {
+    "_id": "XyG7sPm3vWq1",
+    "rating": "⭐⭐⭐⭐⭐",
+    "title": "Car Battery",
+    "productImg": "/assets/images/products/4.png",
+    "price": 35.75
+  },
+  {
+    "_id": "ZaB2cNv6MxT9",
+    "rating": "⭐⭐⭐⭐⭐",
+    "title": "Car tire",
+    "productImg": "/assets/images/products/5.png",
+    "price": 29.99
+  },
+  {
+    "_id": "TfD8pR7QbNw2",
+    "rating": "⭐⭐⭐⭐⭐",
+    "title": "Full Car Servicing",
+    "productImg": "/assets/images/products/6.png",
+    "price": 150.49
+  }
+]
