@@ -22,7 +22,7 @@ const Products = () => {
       </div>
       <div className="my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {products.map((product) => (
-          <ProductCard key={product.service_id} product={product} />
+          <ProductCard key={product._id} product={product} />
         ))}
       </div>
       <br />

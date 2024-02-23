@@ -21,7 +21,7 @@ const Testimonial = () => {
             <div className="flex justify-center items-center mb-4">
               <div className="avatar">
                 <div className="w-16 h-16 rounded-full">
-                  <img src="/public/assets/images/client/1.jpg" />
+                  <img src="/assets/images/client/1.jpg" />
                 </div>
               </div>
               <div className="ms-4">
@@ -32,7 +32,7 @@ const Testimonial = () => {
             <div>
               <img
                 className="w-8 opacity-50"
-                src="/public/assets/icons/quote.svg"
+                src="/assets/icons/quote.svg"
                 alt=""
               />
             </div>
@@ -52,7 +52,7 @@ const Testimonial = () => {
             <div className="flex justify-center items-center mb-4">
               <div className="avatar">
                 <div className="w-16 h-16 rounded-full">
-                  <img src="/public/assets/images/client/2.jpg" />
+                  <img src="/assets/images/client/2.jpg" />
                 </div>
               </div>
               <div className="ms-4">
@@ -63,7 +63,7 @@ const Testimonial = () => {
             <div>
               <img
                 className="w-8 opacity-50"
-                src="/public/assets/icons/quote.svg"
+                src="/assets/icons/quote.svg"
                 alt=""
               />
             </div>
